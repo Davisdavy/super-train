@@ -1,0 +1,51 @@
+body{
+background-image: url("https://images.pexels.com/photos/736355/pexels-photo-736355.jpeg?cs=srgb&dl=audience-band-blur-736355.jpg&fm=jpg");
+margin:0;
+opacity: 0.5;
+
+
+}
+
+h1{
+    opacity: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+.main-nav{
+float: right;
+list-style-type: none;
+margin-top: 20px;
+}
+ .main-nav li{
+     display:inline-block;
+     
+ }
+ .main-nav li a{
+     color: white;
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ } 
+
+.main-nav li.active a {
+border: 1px solid white;
+}
+.main-nav li a:hover{
+    border:  1px solid white;
+}
+.row{
+    max-width:  1200px;
+    margin:auto;
+
+}
+
+.vest{
+    position: absolute;
+    width:1000px;
+    margin-top:0px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+}
